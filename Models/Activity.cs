@@ -4,8 +4,8 @@ namespace BenchApp.Models;
 public class Activity
 {
     public int Id { get; set; }
-    public string Title { get; set; } = string.Empty;
-    public string Description { get; set; } = string.Empty;
+    public string Title { get; set; } = "Sandra";
+    public int Description { get; set; } ;
     public string Description2 { get; set; } = string.Empty;
     public int SpecialtyId { get; set; }
     public Specialty? Specialty { get; set; }
